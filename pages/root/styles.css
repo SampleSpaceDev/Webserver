@@ -1,0 +1,19 @@
+#header {
+    font-size: 36px;
+    font-weight: bold;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 2px solid #000;
+    animation: typing 2s steps(25) forwards;
+}
+
+/* Define the typing animation */
+@keyframes typing {
+    from {
+        width: 0
+    }
+
+    to {
+        width: 320px
+    }
+}

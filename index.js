@@ -3,7 +3,7 @@ const app = express();
 const PORT = 1907;
 
 const routes = [
-    { route: '/', directory: 'testing' }
+    { route: '/', directory: 'root' }
 ]
 
 for (let { route, directory } of routes) {
