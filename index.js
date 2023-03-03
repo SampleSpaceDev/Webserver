@@ -10,6 +10,10 @@ for (let { route, directory } of routes) {
     app.use(route, express.static(__dirname + `/pages/${directory}`));
 }
 
+app.get('/cadonkey', (req, res) => {
+    res.sendFile(__dirname + "/files/LOR.pdf");
+});
+
 app.use((req, res) => {
     res.status(404).sendFile(__dirname + "/pages/error/error.html");
 });
