@@ -7,11 +7,11 @@ const routes = [
 ]
 
 for (let { route, directory } of routes) {
-    app.use(route, express.static(__dirname + `/sites/${directory}`));
+    app.use(route, express.static(__dirname + `/pages/${directory}`));
 }
 
 app.use((req, res) => {
-    res.status(404).sendFile(__dirname + "/sites/error/error.html");
+    res.status(404).sendFile(__dirname + "/pages/error/error.html");
 });
 
 
