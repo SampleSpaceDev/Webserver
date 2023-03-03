@@ -1,3 +1,36 @@
+body {
+    background-color: #f1f1f1;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.container {
+    margin: 100px auto;
+    max-width: 600px;
+    padding: 50px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
 h1 {
-    font-family: 'Courier New', Courier, monospace;
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: #666;
+}
+
+p {
+    font-size: 24px;
+    margin-bottom: 30px;
+    color: #999;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+a:hover {
+    color: #0056b3;
 }
